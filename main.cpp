@@ -20,7 +20,7 @@ int main() {
 	// ----- Test pilaVuota ----- //
 	cout << "Controllo elementi pila..." << endl;
 	if ( !pila1.pilaVuota() ) {
-		cout << "> La pila è piena" << endl;
+		cout << "> C'è almeno un elemento nella pila" << endl;
 	}
 	
 	// ----- Test fuoriPila (pop) ----- //
