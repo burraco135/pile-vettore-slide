@@ -121,6 +121,8 @@ Nel programma, questa viene usata per la funzione:
 
 in quanto ha bisogno di poter accedere agli elementi della pila per poterli stampare.
 
+###### **Attenzione!** La creazione di una "amicizia" non è transitiva (ovvero, un amico di un tuo amico non è il tuo amico) e non è ereditaria (quindi gli amici del figlio di un tuo amico non sono tuoi amici). Per altre informazioni, cliccare su [questo link](https://en.cppreference.com/w/cpp/language/friend)
+
 ## Nota sull'uso della espressione finale `const`
 La dicitura `<nome_funzione> () const` viene utilizzata quando non si desidera modificare i dati della struttura in uso.
 Nel programma, questa viene usata nei seguenti metodi:
@@ -145,5 +147,3 @@ In generale, per sovraccaricare un operatore del tipo `<<` si scrive:
 Invece, per sovraccaricare un operatore del tipo `==` si scrive:
 
 `bool operator==(<nome_classe> <nome_oggetto>);`
-
-###### **Attenzione!** La creazione di una "amicizia" non è transitiva (ovvero, un amico di un tuo amico non è il tuo amico) e non è ereditaria (quindi gli amici del figlio di un tuo amico non sono tuoi amici). Per altre informazioni, cliccare su [questo link](https://en.cppreference.com/w/cpp/language/friend)
