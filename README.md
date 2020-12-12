@@ -99,6 +99,19 @@ In questo programma, tutti i file `.h` contengono tutte le implementazioni, quin
 8. `friend void stampPila(Pila &p);`
     * Stampa tutti gli elementi di una pila
         * Vedere le note per l'uso della keyword `friend`
+
+## Operatori della classe `class Libro`
+1. Costruttori
+    1. Default
+        * `Libro()`
+    2. Distruttore
+        * `~Libro()`
+2. `void setTitolo(string)`
+    * Inserisce un elemento di tipo stringa nella lista
+3. `string getTitolo() const`
+    * Restituisce il titolo di un elemento
+4. `bool operator==(Libro)`
+    * Sovraccarica l'operatore == per permetterne l'output
     
 ## Nota sull'uso della keyword `friend`
 La keyword `friend` viene usata per permettere ad una funzione non dichiarata nella sezione `public` della classe di poter utilizzare gli elementi contenuti nella sezione `private`. 
