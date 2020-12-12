@@ -34,5 +34,5 @@ int main() {
 	// ----- Test stampPila ----- //
   stampPila(pila1);
 
-
+	return 0;
 }
