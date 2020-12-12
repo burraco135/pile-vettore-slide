@@ -2,7 +2,7 @@
 
 [Implementazione su Repl](https://repl.it/@EsterMolinari/PilaVettoreSlide#main.cpp)
 
-Una **pila** una struttura dati con accesso di tipo LIFO, ovvero "Last In, First Out".
+Una **pila** una struttura dati con accesso di tipo **LIFO**, ovvero **"Last In, First Out"**.
 Questo tipo di accesso garantisce l'inserimento dei dati all'inizio della pila (*head*) e la rimozione dei dati sempre dall'inizio della pila. La sua struttura ricorda quella di una lista il cui accesso è limitato al primo elemento memorizzato al suo interno.
 
 ![Immagine di una pila](https://cdn.programiz.com/sites/tutorial2program/files/stack.png)
@@ -61,7 +61,7 @@ Contenuto del programma:
 * **`nodo.h`**
   * Contiene la dichiarazione e l'implementazione della classe `class Nodo`
   
-In questo programma, tutti i file `.h` contengono l'implementazione di costruttori, distruttori e operatori, quindi non è presente alcun file `.cpp`.
+In questo programma, tutti i file `.h` contengono tutte le implementazioni, quindi non è presente alcun file `.cpp`.
 
 ###### Se dovesse essere presente un file `main`, è stato generato in automatico da Repl ed è un file binario non utile ai fini del funzionamento del programma.
 
